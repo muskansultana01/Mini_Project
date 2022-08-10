@@ -1,0 +1,32 @@
+CODE 7 (Virtual machine)
+----------------------------------
+Virtual machine commands
+1. To create a directory, use the command,
+ # mkdir cc
+2.To list all files, use the command ,
+ # ls
+3. To change directory, use the command 
+ # cd cc
+4.To create a new  blank file,
+ # touch  ‘File name’
+5.To remove the file,
+ # rm ‘filename’
+6.The command to remove a directory,
+ # rmdir cc
+7. This command tells how many lines, words, and characters are there in a file.
+ # wc ‘filename’
+8 .To view the online reference manuals,
+ # man
+9.Command to move/rename the file1 to file2:
+ # mv file1 file2.
+10.The command to display number of bytes occupied by the contents of the directory.
+ # du
+11.The command to display the calendar,
+ # cal
+12.The command to display date and time,
+ # date
+13. we can use cat to create file and add data into it
+ # cat > filename
+ “Type data here”
+ # cat filename
+ //data is displayed

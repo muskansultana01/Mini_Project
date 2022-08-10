@@ -1,0 +1,18 @@
+1. First build google sheet
+
+2. For C01 values (same for C02 and C03)
+     formula =SUM(F11,G11,H11,S11)  //Take all the C01 row values
+
+3. For avg C01 values (same for C02 and C03)
+     formula =0.75*AVERAGE(V11:V15)  //Take the whole row for C01 which is in right end
+
+4. Create Target level Table
+
+5. For students above target (same for C02 and C03)
+     formula =COUNTIF(V11:V15, ">="&V8)
+
+6. For Assessment(%) (same for C02 and C03)
+     formula =(G27/G26*100)
+
+7. For Attainment Level (same for C02 and C03)
+     formula =IF(G28>75, "3",IF(AND(G28>40,G28<75),"2",IF(G28<40,"1","0")))

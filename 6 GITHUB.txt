@@ -1,0 +1,68 @@
+CODE 6 (GIT-HUB)
+-----------------------------------------
+Initialize
+-----------------------
+1. Used to initialise
+git init
+
+2. Gets the status of files which can be uploaded
+git status
+
+3. Makes all the files ready to be uploaded
+git add -A
+
+4. Gets the status of files which can be uploaded
+git status
+
+5. Adds a Sticker
+git commit -m "Lab"
+
+6. Use to remote
+git remote add origin <YOUR REPOSITORY URL>
+
+7. command to push code
+git push origin master
+
+GitIgnore
+---------------------------
+1 Now let’s create a log file for example mylog.log enter any data in it
+2 Create .gitignore by using below command only
+    touch .gitignore
+3 Now type mylogs.log in .gitignore so that that particular file gets ignore
+4  git status //you can see gitignore and mylogs is not added
+5 Now save all files
+     git add -A
+6  git status
+7  To upload on github
+    git commit -a -m "ignored and appeared"  //Commit is needed after alteration
+    git push origin master
+
+NOTE: If you want to ignore particular format file the use *.txt, *.log etc it ignore all the text files…
+
+
+Branch
+--------------------------
+1 To create new branch
+    git branch feature1
+2 To display branches
+    git branch                
+3 To switch another branch
+    git checkout feature1 
+4. To know on which branch you are
+    git status            
+5 To create branch from a branch
+    git checkout -b <branch name>  
+6 To push branches 
+    git push origin <branch name>
+
+
+To get access
+go to setting
+SSH and GPG keys
+Click on generating SSH keys
+Generating a new SSH key
+Use the Command 2   ssh-keychain  copy paste it in gitbash
+Adding your ssh key -> go for eval command (middle one)
+Then ssh-add command
+Go back then adding a new ssh key-> copy shh key of clip command and cat at beginning
+Click on new new SSH key paste the obatained long code there then click Add SHH key
